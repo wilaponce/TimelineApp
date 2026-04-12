@@ -299,7 +299,7 @@ FakesAssemblies/
 
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-node_modules/
+*node_modules/
 
 # Visual Studio 6 build log
 *.plg
@@ -397,8 +397,8 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
+*.vscode
+*!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -416,3 +416,6 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+*.next
+*.zip
