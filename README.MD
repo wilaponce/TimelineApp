@@ -1,7 +1,9 @@
 # Timeline App
 
 https://github.com/wilaponce/TimelineApp/actions/workflows/ci.yml/badge.svg
+
 https://img.shields.io/badge/license-MIT-green
+
 https://img.shields.io/badge/Supabase-SSR-success?logo=supabase
 
 A modern **Next.js App Router** application using **Supabase Auth (SSR)**, featuring a **protected 3D timeline** of verified moments with smooth scrolling, keyboard navigation, and detail views.
