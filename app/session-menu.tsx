@@ -11,7 +11,7 @@ export default function SessionMenu() {
   const [email, setEmail] = useState<string | null>(null)
 
   useEffect(() => {
-    supabase.auth.getUser().then(({ data }: { data: { user: { email: string } | null } }) => {
+    supabase.auth.getUser().then(({ data }) => {
       setEmail(data.user?.email ?? null)
     })
   }, [])
