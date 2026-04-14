@@ -420,5 +420,5 @@ FodyWeavers.xsd
 *.next
 *.zip
 .env.keys
-.env.local
 .env.example
+.env.local
