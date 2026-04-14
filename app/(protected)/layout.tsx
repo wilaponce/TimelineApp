@@ -1,10 +1,21 @@
-
 import { redirect } from 'next/navigation'
-import { supabaseUser } from '@/lib/supabase/server'
+import { supabaseServer } from '@/lib/supabase/server'
+import type { ReactNode } from 'react'
 
-export default async function ProtectedLayout({ children }: { children: React.ReactNode }) {
-  const supabase = supabaseUser()
-  const { data } = await supabase.auth.getSession()
-  if (!data.session) redirect('/login')
+export default async function ProtectedLayout({
+  children,
+}: {
+  children: ReactNode
+}) {
+  const supabase = await supabaseServer()
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+
+  if (!user) {
+    redirect('/login')
+  }
+
   return <>{children}</>
 }
