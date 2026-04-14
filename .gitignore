@@ -421,5 +421,5 @@ FodyWeavers.xsd
 *.zip
 .env.keys
 .env.example
-.env.local
+.*.local
 supabase/.temp
