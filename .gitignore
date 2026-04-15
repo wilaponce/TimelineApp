@@ -422,4 +422,4 @@ FodyWeavers.xsd
 .env.keys
 .env.example
 .*.local
-supabase/
+supabase/tsconfig.tsbuildinfo

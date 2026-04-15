@@ -6,10 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "biome check .",
-    "lint:fix": "biome check --write .",
-    "format": "biome format .",
-    "format:fix": "biome format --write .",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -20,10 +18,11 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.12",
     "@types/node": "20.14.10",
     "@types/react": "18.3.9",
-    "typescript": "5.5.4"
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.35",
+    "typescript": "^6.0.0-dev.20260401"
   },
   "engines": {
     "node": ">=20 <22",
