@@ -13,10 +13,9 @@
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.2",
-    "@supabase/supabase-js": "^2.39.0",
+    "@supabase/supabase-js": "^2.103.0",
     "@types/react": "^19.2.14",
     "next": "^16.2.3",
-    "node-domexception": "^2.0.2",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "supabase": "^2.89.1"
