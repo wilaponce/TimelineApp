@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NODE_ENV: production
-      CI: true
-      NPM_CONFIG_LOGLEVEL: error
 
       NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
       NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
