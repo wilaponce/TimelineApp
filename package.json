@@ -5,18 +5,24 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format .",
+    "format:fix": "biome format --write ."
   },
   "dependencies": {
     "@supabase/ssr": "^0.10.2",
     "@supabase/supabase-js": "^2.39.0",
-    "eslint-config-next": "^16.2.3",
+    "@types/react": "^19.2.14",
     "next": "^16.2.3",
+    "node-domexception": "^2.0.2",
     "react": "^19.2.5",
-    "react-dom": "^19.2.5"
+    "react-dom": "^19.2.5",
+    "supabase": "^2.89.1"
   },
   "devDependencies": {
-    "@types/react": "19.2.14",
-    "supabase": "^2.89.1"
+    "@biomejs/biome": "^2.4.12",
+    "typescript": "^6.0.2"
   }
 }
