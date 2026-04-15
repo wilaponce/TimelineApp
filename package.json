@@ -9,13 +9,13 @@
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "format": "biome format .",
-    "format:fix": "biome format --write ."
+    "format:fix": "biome format --write .",
+    "typecheck": "tsc --noEmit"
   },
- 
-"dependencies": {
+  "dependencies": {
     "@supabase/ssr": "^0.10.2",
     "@supabase/supabase-js": "^2.103.0",
-    "next": "14.2.5",
+    "next": "^14.2.35",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
@@ -24,5 +24,9 @@
     "@types/node": "20.14.10",
     "@types/react": "18.3.9",
     "typescript": "5.5.4"
+  },
+  "engines": {
+    "node": ">=20 <22",
+    "npm": ">=10"
   }
 }
