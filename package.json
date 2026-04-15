@@ -11,18 +11,18 @@
     "format": "biome format .",
     "format:fix": "biome format --write ."
   },
-  "dependencies": {
+ 
+"dependencies": {
     "@supabase/ssr": "^0.10.2",
     "@supabase/supabase-js": "^2.103.0",
-    "@types/react": "^19.2.14",
-    "next": "^16.2.3",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "supabase": "^2.89.1"
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.12",
-    "@types/node": "^25.6.0",
-    "typescript": "^6.0.2"
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.9",
+    "typescript": "5.5.4"
   }
 }
