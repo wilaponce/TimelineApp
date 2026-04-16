@@ -423,3 +423,4 @@ FodyWeavers.xsd
 .env.example
 .*.local
 supabase/tsconfig.tsbuildinfo
+../node_modules/
