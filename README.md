@@ -1,5 +1,5 @@
 
-# Timeline App
+# 3D Timeline App
 
 [![CI](https://github.com/wilaponce/TimelineApp/actions/workflows/ci.yml/badge.svg)](https://github.com/wilaponce/TimelineApp/actions)
 ![License](https://img.shields.io/badge/license-MIT-green)
